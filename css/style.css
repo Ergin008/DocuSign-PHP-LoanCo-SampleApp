@@ -1,0 +1,256 @@
+body {
+  margin:0;
+  padding:0;
+  line-height: 1.5em;
+  background-color: #feeba6;
+}
+
+b {
+  font-size: 110%;
+}
+
+em {
+  color: red;
+}
+
+#topsection {
+  background: #EAEAEA;
+  height: 90px; /*Height of top section*/
+}
+
+#topsection h1 {
+  margin: 0;
+  padding-top: 15px;
+}
+
+#contentwrapper {
+  float: left;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#contentcolumn {
+  margin: 0 0 0 230px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+#leftcolumn {
+  float: left;
+  width: 230px; /*Width of left column*/
+  margin-left: -100%;
+  background: #868281;
+  height: 1200px;
+}
+
+.left-menu-gap {
+  background: #bfbac0;
+  width: 210px;
+  height: 4px;
+  padding-left: -36px;
+}
+
+.menu-border {
+  background: #bfbac0;
+  padding-left: -36px;
+  width: 210px;
+  height: 4px;
+}
+
+.year15 {
+  background: url(../images/15YrFixed.png) no-repeat;
+  width: 210px;
+  height: 51px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+
+.year30 {
+  background: url(../images/30YrFixed.png) no-repeat;
+  width: 210px;
+  height: 51px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.arm51 {
+  background: url(../images/5_1ARM.png) no-repeat;
+  width: 210px;
+  height: 51px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+
+.esign-banner {
+  background: url(../images/esign_banner.png) no-repeat;
+  width: 230px;
+  height: 123px;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+
+.money-bar-right {
+  position: relative;
+  background: url(../images/money_bar_repeat.png) repeat-x;
+  height:154px;
+  margin-top: 19px;
+}
+
+.copy {
+  margin-top:10px;
+  padding-top:10px;
+  text-align:center;
+  font-size:12px;
+  font-family:tahoma;
+}
+
+#footer {
+  clear: left;
+  width: 100%;
+  background: #868281;
+  color: #FFF;
+  text-align: center;
+  padding: 0;
+}
+
+.innertube {
+  position:relative;
+  margin: 0; /*Margins for inner DIV inside each column (to provide padding)*/
+  margin-top: 0;
+}
+
+.contentbarstart {
+  background: url(../images/gradient-start.png) repeat-y;
+  float: left;
+  width: 220px;
+  height: 1200px;
+}
+
+.contentbarrepeat {
+  background: url(../images/gradient-cap-repeat.png) repeat;
+  width: 80%;
+  height: 1200px;}
+
+.content {
+  white-space: nowrap;
+}
+
+#formErrorText {
+  width: 420px;
+  font-size: 8pt;
+  color: red;
+  line-height: 15px;
+}
+
+.menu {
+  background: #4f4d4e;
+  width: 210px;
+  height: 140px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-left: -36px;
+  color: #ffffff;
+  font-size:10px;
+  font-family:tahoma;
+  font-weight: bold;
+}
+
+.dotted-menu-item {
+  text-decoration: none;
+  border-bottom: dotted 1px #646464;
+}
+
+.menu-label {
+  text-decoration: none;
+  color: #ffffff;
+  font-size:10px;
+  font-family:tahoma;
+  font-weight: bold;
+}
+
+.money-bar {
+  position: absolute;
+  background: url(../images/save_your_money_today.png) no-repeat;
+  top: 16px;
+  left: -20px;
+  width: 100%;
+  height:197px;
+}
+
+.money-repeat {
+  position: absolute;
+  margin-top: 43px;
+  left: 506px;
+  background: url(../images/money_bar_repeat.png) repeat-x;
+  width: 72%;
+  height:154px;
+}
+
+.full-content {
+  color: #000000;
+  position: absolute;
+  top: 40px;
+  margin-left: 0px;
+  margin-top: 173px;
+  width: 100%;
+  height: 825px;
+  text-align: left;
+  font-family: tahoma;
+  font-size: 11px;
+}
+
+.content-section {
+  color: #000000;
+  position: absolute;
+  top: 40px;
+  margin-left: 30px;
+  margin-top: 200px;
+  width: 90%;
+  height: 850px;
+  text-align: left;
+  font-family: tahoma;
+  font-size: 11px;
+  overflow: hidden;
+}
+
+.mortgage-co-logo {
+  padding-left: 36px;
+}
+
+#webserviceHeartbeat {
+  float: right;
+  margin-right: 10px;
+}
+
+.SessionLogDisplay {
+	width: 100%;
+	height: 400px;
+	overflow: scroll;
+	margin: 0;
+	padding: 0;
+	font:  verdana, helvetica, arial, sans-serif;
+	line-height: 1em;
+	color: #000;
+	background: #fff;
+	
+}
+.SessionLogDisplay pre{
+	font:  verdana, helvetica, arial, sans-serif;
+	line-height: 1em;
+	color: #000;
+	background: #fff;
+	
+}
+
+#header{
+	height: 218px;
+	background: url(../images/LoanCoHeaderRepeat.png) repeat-x;
+	width: 100%;
+	
+}
+.logo {
+  position: absolute;
+  background: url(../images/LoanCoHeader.png) no-repeat;
+  left: 0px;
+  width: 718px;
+  height:218px;
+}
+
